@@ -1,1 +1,5 @@
 # app for CMS
+### .env
+- POSTGRES_USER
+- POSTGRES_PASSWORD
+- POSTGRES_DB
