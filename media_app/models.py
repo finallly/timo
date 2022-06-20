@@ -8,6 +8,7 @@ class Article(models.Model):
     title = models.CharField(max_length=64)
     body = models.TextField()
     image = models.ImageField(upload_to='photos')
+    link = models.CharField(max_length=512)
     date_uploaded = models.DateTimeField(default=datetime.now)
 
 
